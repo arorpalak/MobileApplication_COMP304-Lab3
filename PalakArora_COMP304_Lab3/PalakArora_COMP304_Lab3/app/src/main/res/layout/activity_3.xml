@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3">
+
+    <LinearLayout
+        android:id="@+id/ButtonRow"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonStart"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/ButtonStop"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imageRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ImageViewForEarth"
+            android:layout_width="278dp"
+            android:layout_height="200dp"
+            android:contentDescription="EarthImage" />
+
+        <ImageView
+            android:id="@+id/ImageViewForSun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="SunImage" />
+    </LinearLayout>
+</LinearLayout>
